@@ -1,0 +1,12 @@
+{
+    "AWSTemplateFormatVersion" : "version date",
+    "Resources": {
+        "S3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "BucketName": "mahajayamaha"
+            }
+        }
+    } 
+  }
